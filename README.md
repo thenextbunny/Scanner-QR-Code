@@ -18,7 +18,7 @@ Permitir o uso da camera
 ### Clonar o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/scanner.git
+git clone https://github.com/DanTeodoro/Scanner-QR-Code.git
 cd scanner
 ```
 
