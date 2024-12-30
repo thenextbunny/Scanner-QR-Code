@@ -28,6 +28,14 @@ cd scanner
 npm install
 ```
 
+### Instalar o mkcert
+```bash
+https://github.com/FiloSottile/mkcert/releases
+mkcert-v1.4.4-windows-amd64.exe (instale o com 4,67MB)
+mkcert -install
+mkcert localhost (irá gerar dois arquivos, localhost.pem e localhost-cert.pem)
+```
+
 ### Iniciar o servidor de desenvolvimento:
 
 ```bash
