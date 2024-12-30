@@ -50,6 +50,16 @@ Acesse o projeto no navegador em https://localhost:3000.
       <td>Tipagem estática que aumenta a segurança e reduz erros durante o desenvolvimento.</td>
     </tr>
     <tr>
+      <td>Tailwind CSS</td>
+      <td><img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS Logo"></td>
+      <td>Framework de CSS simples para estilização rápida e altamente personalizável.</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="mkcert Logo"></td>
+      <td>Linguagem de programação usada para lógica e interatividade do projeto.</td>
+    </tr>
+    <tr>
       <td>@zxing/library</td>
       <td><img src="https://img.shields.io/badge/ZXing-lightgrey?style=for-the-badge" alt="ZXing Logo"></td>
       <td>Biblioteca que permite a leitura do QR Code.</td>
