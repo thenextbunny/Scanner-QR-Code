@@ -8,9 +8,11 @@ const QRCodeReader: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const [cameraAvailable, setCameraAvailable] = useState<boolean | null>(null);
   const [errorDetails, setErrorDetails] = useState<string | null>(null);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [qrResult, setQrResult] = useState<string | null>(null);
   const codeReader = useRef(new BrowserMultiFormatReader());
   const scanningRef = useRef<boolean>(false);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [stream, setStream] = useState<MediaStream | null>(null);
 
   useEffect(() => {
@@ -55,7 +57,7 @@ const QRCodeReader: React.FC = () => {
 
         setCameraAvailable(true);
         setErrorDetails(null);
-      } catch (err: any) {
+      } catch (err: unknown) {
         console.error("Erro ao acessar a câmera:", err);
         setErrorDetails("Erro desconhecido ao tentar acessar a câmera.");
         setCameraAvailable(false);
@@ -146,4 +148,4 @@ const QRCodeReader: React.FC = () => {
   );
 };
 
-export default QRCodeReader;
+export default QRCodeReader;
